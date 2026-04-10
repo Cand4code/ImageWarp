@@ -1,4 +1,4 @@
-// --- START OF FILE Warp_Pro_Projector_Final.fx ---
+// --- START OF FILE Warp.fx ---
 #include "ReShade.fxh"
 
 #define RANGE 5.0
