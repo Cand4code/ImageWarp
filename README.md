@@ -3,7 +3,8 @@ An advanced 9-point spline warping HLSL shader for ReShade, high-performance eng
 Unlike standard linear warping tools, this shader utilizes Quadratic Spline Interpolation across a 3x3 mesh. This ensures a perfectly smooth image deformation without visible "folds" or sharp edges, making it the ideal solution for Sim-Racing, Flight Simulation, and professional Home Cinema setups.
 
 ![ReShade Version](https://img.shields.io/badge/ReShade-Compatible-brightgreen)
-![License](https://img.shields.io/badge/license-MIT-blue)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 
 ## ✨ Key Features
 
@@ -13,7 +14,7 @@ Unlike standard linear warping tools, this shader utilizes Quadratic Spline Inte
 - **Intuitive Cartesian Controls**: 
   - **X-axis**: Positive (+) moves Right, Negative (-) moves Left.
   - **Y-axis**: Positive (+) moves Up, Negative (-) moves Down.
-- **Compact UI**: Control points are grouped as `float2` (X and Y on the same line) with `0.01` precision steps for ergonomic calibration.
+- **Compact UI**: Control points are grouped as `float2` (X and Y on the same line) with `0.005` precision steps for ergonomic calibration.
 - **Global Geometry Tools**:
   - **Global Translation (X, Y)**: Move the entire image without losing your warp settings.
   - **Global Zoom**: Scale the projection to fit your lens throw.
@@ -23,9 +24,9 @@ Unlike standard linear warping tools, this shader utilizes Quadratic Spline Inte
 ## 🛠 Installation
 
 1. Install [ReShade](https://reshade.me/) into your desired game or application.
-2. Download `Warp_Pro_Projector.fx` from this repository.
+2. Download `Warp.fx` from this repository.
 3. Place the file into your ReShade shader folder (usually `reshade-shaders/Shaders/`).
-4. Launch the game and enable `BarcoWarpPro` in the ReShade overlay.
+4. Launch the game and enable `ImageWarp` in the ReShade overlay.
 
 ## 🎯 Calibration Guide
 
