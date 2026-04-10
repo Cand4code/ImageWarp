@@ -1,6 +1,8 @@
 # ImageWarp
-An advanced 9-point spline warping HLSL shader for ReShade, high-performance engineered for curved screen projector calibration. It features intuitive geometry controls, boundary markers, and a dynamic real-time grid.
-Unlike standard linear warping tools, this shader utilizes Quadratic Spline Interpolation across a 3x3 mesh. This ensures a perfectly smooth image deformation without visible "folds" or sharp edges, making it the ideal solution for Sim-Racing, Flight Simulation, and professional Home Cinema setups.
+An advanced 9-point spline warping HLSL shader for ReShade, high-performance engineered for curved screen projector calibration.
+It features intuitive geometry controls, boundary markers, and a dynamic real-time grid.
+Unlike standard linear warping tools, this shader utilizes Quadratic Spline Interpolation across a 3x3 mesh.
+This ensures a perfectly smooth image deformation without visible "folds" or sharp edges, making it the ideal solution for Sim-Racing, Flight Simulation, and professional Home Cinema setups.
 
 ![ReShade Version](https://img.shields.io/badge/ReShade-Compatible-brightgreen)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
