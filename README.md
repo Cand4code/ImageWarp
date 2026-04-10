@@ -37,7 +37,7 @@ Unlike standard linear warping tools, this shader utilizes Quadratic Spline Inte
 
 ## 📜 License
 
-This project is licensed under the **MIT License**. You are free to use, modify, and distribute it.
+This project is licensed under GNU General Public License v3.0. You are free to use, and distribute it.
 
 ---
 *Developed for professional-grade simulator setups and curved projection environments.*
